@@ -14,10 +14,12 @@ This is a gem that decorate ActiveModel Compliant objects using RedCloth
 * Have test cases for it
 * Have fun
 
-*"Less Rails, More Objects. Less Objects more Messages"*
+*Less Rails, More Objects. Less Objects more Messages*
 
 == Copyright
+
 Copyright (c) 2012 Ivan Acosta-Rubio.
 
 http://www.bakedweb.net
+
 http://www.ivanacostarubio.com
