@@ -38,6 +38,11 @@ module RedCloth
             qt = attributes[name.to_s]
             qt.nil? ? "" : qt
           end
+
+          define_method("old_" + name.to_s) do
+            attributes[name.to_s]
+          end
+
         end
       end
     end

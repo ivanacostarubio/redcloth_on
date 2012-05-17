@@ -33,7 +33,14 @@ describe "RedclothOn" do
 
   it "should not raise when the attribute is nil" do
     lambda{ TestingClass.new.nil_value }.should_not raise_error
+  end
 
+  it "has access to the unmodified attribute" do
+    TestingClass.new.old_testing.should == "*hello*"
+  end
+
+  it "returns an empty string for nil attribute" do
+    TestingClass.new.nil_value.should == ""
   end
 
 end
