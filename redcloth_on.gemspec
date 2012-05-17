@@ -26,6 +26,7 @@ Gem::Specification.new do |s|
     "Rakefile",
     "VERSION",
     "lib/redcloth_on.rb",
+    "redcloth_on.gemspec",
     "spec/redcloth_on_spec.rb",
     "spec/spec_helper.rb"
   ]
