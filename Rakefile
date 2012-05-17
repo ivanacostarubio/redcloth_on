@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "redcloth_on"
   gem.homepage = "http://github.com/ivanacostarubio/redcloth_on"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{This is a gem that decorate ActiveModel Compliant objects using RedCloth}
+  gem.description = %Q{ This is a gem that decorate ActiveModel Compliant objects using RedCloth}
   gem.email = "ivan@bakedweb.net"
   gem.authors = ["Ivan Acosta-Rubio"]
   # dependencies defined in Gemfile
