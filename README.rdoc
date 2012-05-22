@@ -4,11 +4,9 @@ This is a gem that decorate ActiveModel Compliant objects using RedCloth
 
 == How to: 
 
-```ruby
   class Person
     redcloth_on [:name, :last_name]
   end
-```
 
 == Contributing to redcloth_on
 
